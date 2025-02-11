@@ -13,9 +13,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
-# Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # Leica Cam
 $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
